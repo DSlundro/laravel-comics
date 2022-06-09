@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
-});
+    $navbar = config('db.navbar');
+    $comics = config('db.comics');
+    $cardNav = config('db.navCardsElements');
+    return view('home', compact('navbar', 'comics', 'cardNav'));
+})->name('home');

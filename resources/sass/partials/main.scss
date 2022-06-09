@@ -1,0 +1,33 @@
+main{
+    .w-100{
+        position: relative;
+        height: 400px;
+        img{
+            margin: auto;
+            width: 100%;
+            position: absolute;
+        }
+    }
+    .bg-dark{position: relative; z-index: 1;}
+    .container{
+    position: relative;
+    .btn-cards{
+        background-color: $primary;
+        font-size: 24px;
+        border: none;
+        padding: 10px 20px;
+        position: absolute;
+        &:hover{
+            background-color: $shadow-blue;
+        }
+    }
+    .btn-load{
+        background-color: $primary;
+        border: none;
+        padding: 10px 25px;
+        &:hover{
+            background-color: $shadow-blue;
+        }
+    }
+    }
+}
