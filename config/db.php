@@ -215,47 +215,51 @@ return [
     ],
     "navbar" => [
         [
+            "text" => 'home',
+            "href" => '/',
+        ],
+        [
             "text" => 'characters',
-            "href" => '#',
+            "href" => '/components/characters',
         ],
         [
             "text" => 'comics',
-            "href" => '#',
+            "href" => '/components/comics',
         ],
         [
             "text" => 'movies',
-            "href" => '#',
+            "href" => '/components/movies',
         ],
         [
             "text" => 'tv',
-            "href" => '#',
+            "href" => '/components/tv',
         ],
         [
             "text" => 'games',
-            "href" => '#',
+            "href" => '/components/games',
         ],
         [
             "text" => 'collectibles',
-            "href" => '#',
+            "href" => '/components/collectibles',
         ],
         [
             "text" => 'videos',
-            "href" => '#',
+            "href" => '/components/videos',
         ],
         [
             "text" => 'fans',
-            "href" => '#',
+            "href" => '/components/fans',
         ],
         [
             "text" => 'news',
-            "href" => '#',
+            "href" => '/components/news',
         ],
         [
             "text" => 'shop',
-            "href" => '#',
+            "href" => '/components/shop',
         ],
     ],
-    "navCardsElements" =>[
+    "cards" =>[
         [
             "img"  => ('/img/buy-comics-digital-comics.png'),
             "text" => 'digital comics',

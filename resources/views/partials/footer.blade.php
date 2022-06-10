@@ -1,4 +1,4 @@
-<section>
+<footer>
     <div class="f-bg">
         <div class="container">
             <div class="row py-5">
@@ -90,4 +90,4 @@
             </div>
         </div>
     </div>
-</section>
+</footer>

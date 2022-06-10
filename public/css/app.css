@@ -12173,6 +12173,28 @@ fieldset:disabled .btn {
   }
 }
 
+.btn-cards {
+  background-color: #0282F9;
+  font-size: 24px;
+  border: none;
+  padding: 10px 20px;
+  position: absolute;
+}
+
+.btn-cards:hover {
+  background-color: #3ba0ff;
+}
+
+.btn-load {
+  background-color: #0282F9;
+  border: none;
+  padding: 10px 25px;
+}
+
+.btn-load:hover {
+  background-color: #3ba0ff;
+}
+
 .card h5,
 .card .h5 {
   text-transform: uppercase;
@@ -12189,9 +12211,40 @@ fieldset:disabled .btn {
   box-shadow: 0 0 5px white;
 }
 
+header nav a {
+  color: #0282F9;
+  text-transform: uppercase;
+  padding: 51px 0;
+}
+
+header nav a:hover {
+  border-top: 4px solid white;
+  border-bottom: 4px solid #0282F9;
+}
+
+body .w-100 {
+  position: relative;
+  height: 400px;
+}
+
+body .w-100 img {
+  margin: auto;
+  width: 100%;
+  position: absolute;
+}
+
+body .bg-dark {
+  position: relative;
+  z-index: 1;
+}
+
+body .container {
+  position: relative;
+}
+
 section {
   position: relative;
-  z-index: 2;
+  z-index: 0;
   background-color: #0282F9;
 }
 
@@ -12206,62 +12259,9 @@ section p {
   padding-left: 7px;
 }
 
-header nav a {
-  color: #0282F9;
-  text-transform: uppercase;
-  padding: 51px 0;
-}
-
-header nav a:hover {
-  border-top: 4px solid white;
-  border-bottom: 4px solid #0282F9;
-}
-
-main .w-100 {
-  position: relative;
-  height: 400px;
-}
-
-main .w-100 img {
-  margin: auto;
-  width: 100%;
-  position: absolute;
-}
-
-main .bg-dark {
-  position: relative;
-  z-index: 1;
-}
-
-main .container {
-  position: relative;
-}
-
-main .container .btn-cards {
-  background-color: #0282F9;
-  font-size: 24px;
-  border: none;
-  padding: 10px 20px;
-  position: absolute;
-}
-
-main .container .btn-cards:hover {
-  background-color: #3ba0ff;
-}
-
-main .container .btn-load {
-  background-color: #0282F9;
-  border: none;
-  padding: 10px 25px;
-}
-
-main .container .btn-load:hover {
-  background-color: #3ba0ff;
-}
-
 footer {
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 footer .f-bg {
@@ -12340,5 +12340,10 @@ footer .contact .col-9 .social a {
 
 a {
   text-decoration: none;
+}
+
+.active {
+  border-top: 4px solid white;
+  border-bottom: 4px solid #0282F9;
 }
 
