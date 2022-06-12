@@ -57,12 +57,12 @@ Route::get('/components/comics/{id}', function ($id) {
     $comics = config('db.comics');
     if($id >= 0 && is_numeric($id) && $id < count($comics)){
         $comic= $comics[$id];
-        return view('/components/comicsDetail', compact('comic'));
+        return view('/components/comic', compact('comic'));
     }
     else {
         abort(404);
     }
-})->name('comicsDetail');
+})->name('comic');
 
 Route::get('/components/movies', function(){
     return view('/components/movies');

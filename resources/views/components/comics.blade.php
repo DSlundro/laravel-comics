@@ -16,7 +16,7 @@
                 <img src="{{$e['thumb']}}" alt="">
                 <div class="card-body text-center d-flex flex-column justify-content-between">
                     <h5 class="card-title">{{$e['series']}}</h5>
-                    <a href="{{route('comicsDetail', $key)}}" class="btn btn-primary">Buy {{$e['price']}}</a>
+                    <a href="{{route('comic', $key)}}" class="btn btn-primary">Buy {{$e['price']}}</a>
                 </div>
             </div>
             @empty

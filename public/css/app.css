@@ -12344,7 +12344,7 @@ body {
 
 .comics-img {
   bottom: -60px;
-  border: solid 1px white;
+  border: 1px solid white;
   height: 300px;
   position: relative;
 }

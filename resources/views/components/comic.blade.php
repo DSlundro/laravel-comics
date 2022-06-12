@@ -39,12 +39,12 @@
             
         </div>
     </div>
-    <div class="bg-light pt-4 pb-5 border-top border-bottom border-secondary">
+    <div class="bg-light pt-4 pb-5 border-top border-bottom border-gray">
         <div class="container">
             <div class="row ">
                 <div class="col-6">
                     <h3 class="mb-4">Talent</h3>
-                    <div class="row m-0 p-0 py-2 border-top border-secondary">
+                    <div class="row m-0 p-0 py-2 border-top border-gray">
                         <div class="col-3">
                             <h6>Art by:</h6>
                         </div>
@@ -58,7 +58,7 @@
                                 @endforeach
                             </p>
                         </div>
-                        <div class="row m-0 p-0 py-2 border-top border-bottom border-secondary">
+                        <div class="row m-0 p-0 py-2 border-top border-bottom border-gray">
                             <div class="col-3 ">
                                 <h6>Written by:</h6>
                             </div>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-6 pb-5">
                     <h3 class="mb-4">Specs</h3>
-                    <div class="row row m-0 py-2 align-items-center border-top  border-secondary">
+                    <div class="row row m-0 py-2 align-items-center border-top  border-gray">
                         <div class="col-3">
                             <h6>Series:</h6>
                         </div>
@@ -88,7 +88,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row row m-0 align-items-center py-2 border-top  border-secondary">
+                    <div class="row row m-0 align-items-center py-2 border-top  border-gray">
                         <div class="col-3">
                             <h6>U.S. Price:</h6>
                         </div>
@@ -98,7 +98,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row row align-items-center m-0 py-2 border-top  border-bottom border-secondary">
+                    <div class="row row align-items-center m-0 py-2 border-top  border-bottom border-gray">
                         <div class="col-3">
                             <h6>On sale date:</h6>
                         </div>
