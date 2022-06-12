@@ -53,6 +53,17 @@ Route::get('/components/comics', function (){
     return view('/components/comics', compact('comics'));
 })->name('comics');
 
+Route::get('/components/comics/{id}', function ($id) {
+    $comics = config('db.comics');
+    if($id >= 0 && is_numeric($id) && $id < count($comics)){
+        $comic= $comics[$id];
+        return view('/components/comicsDetail', compact('comic'));
+    }
+    else {
+        abort(404);
+    }
+})->name('comicsDetail');
+
 Route::get('/components/movies', function(){
     return view('/components/movies');
 })->name('movies');

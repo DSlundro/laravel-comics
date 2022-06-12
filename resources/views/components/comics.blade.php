@@ -11,12 +11,12 @@
         </div>
         
         <div class="col-12 d-flex py-5 px-4 gap-5 flex-wrap justify-content-center">
-            @forelse ($comics as $comic)
+            @forelse ($comics as $key => $e)
             <div class="card d-flex flex-wrap col-10 col-md-5 col-lg-3 col-xxl-2">
-                <img src="{{$comic['thumb']}}" alt="">
+                <img src="{{$e['thumb']}}" alt="">
                 <div class="card-body text-center d-flex flex-column justify-content-between">
-                    <h5 class="card-title">{{$comic['series']}}</h5>
-                    <a href="#" class="btn btn-primary">Buy {{$comic['price']}}</a>
+                    <h5 class="card-title">{{$e['series']}}</h5>
+                    <a href="{{route('comicsDetail', $key)}}" class="btn btn-primary">Buy {{$e['price']}}</a>
                 </div>
             </div>
             @empty

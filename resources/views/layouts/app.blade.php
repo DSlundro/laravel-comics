@@ -10,7 +10,7 @@
 <body>
     @include('partials.header')
     @include('partials.jumbotron')
-    <main class="bg-dark ">
+    <main class="bg-dark">
         @yield('content')
     </main>
     @include('partials.cards')
