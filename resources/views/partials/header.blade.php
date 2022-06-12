@@ -2,12 +2,12 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-2 d-flex align-items-center py-3">
+            <div class="col-1 d-flex align-items-center py-3">
                 <img src="{{('/img/dc-logo.png')}}" alt="">
             </div>
-            <div class="col-10 d-flex justify-content-end align-items-center" >
+            <div class="col-11 d-flex justify-content-end align-items-center" >
 
-                <nav class="navbar navbar-light py-0 px-3 gap-4">
+                <nav class="navbar navbar-light py-0 px-3 gap-3">
                     <a class ="{{Route::currentRouteName()==='home'?'active':''}}" href="{{ route('home')}}">Home</a>
                     <a class ="{{Route::currentRouteName()==='characters'?'active':''}}" href="{{ route('characters')}}">Characters</a>
                     <a class ="{{Route::currentRouteName()==='comics'?'active':''}}" href="{{ route('comics')}}">Comics</a>
@@ -19,9 +19,9 @@
                     <a class ="{{Route::currentRouteName()==='fans'?'active':''}}" href="{{ route('fans')}}">Fans</a>
                     <a class ="{{Route::currentRouteName()==='news'?'active':''}}" href="{{ route('news')}}">News</a>
                     <a class ="{{Route::currentRouteName()==='shop'?'active':''}}" href="{{ route('shop')}}">Shop</a>
+                    <input type="text" placeholder="search">
                 </nav>
-                <input type="text" placeholder="search">
-                
+
             </div>
         </div>
     </div>
